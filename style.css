@@ -1,0 +1,58 @@
+body {
+	padding: 0 20px;
+}
+
+button {
+	padding: 10px;
+	font-size: 14px;
+}
+
+main.jobs_index_wrapper {
+	width: 500px;
+}
+
+ul.jobs_index {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.jobs_index > li {
+	margin-top: 1px;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #ececec;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+ul.jobs_index > li > * {
+	margin-right: 10px;
+}
+
+.job_title {
+	font-weight: bold;
+}
+
+.job_priority_wrapper > * {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.job_priority_indicator {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.low {
+	background-color: grey;
+}
+
+.normal {
+	background-color: black;
+}
+
+.critical {
+	background-color: red;
+}
